@@ -23,7 +23,7 @@ const BtnPhone = ({callLabel, callPhone, className }) => (
     style={{
       backgroundColor: '#D60107',
       color: '#E9E4D0', 
-      // borderColor: '#575757',
+      borderColor: '#D60107',
       width: '100%',
     }}
   >
