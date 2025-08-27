@@ -6,7 +6,9 @@
 
 :root {
   --white: #fff;
+  --white-cream: #E9E4D0;
   --black: #000;
+  --black-brand: #192525;
   --red: #e52922;
   --gray: #575757;
   --gray-light: #b6b6b6;
@@ -86,7 +88,7 @@ body {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
-  color: #E9E4D0;
+  color: var(--white-cream);
   background: #192525;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -228,10 +230,12 @@ section {
   }
 
   &--primary {
-    color: var(--red);
+    color: var(--black-brand);
+    background-color: var(--red);
 
     &:hover,
     &:focus-visible {
+      color: var(--black-brand);
       background-color: var(--red);
       border-color: var(--red);
     }
@@ -244,6 +248,16 @@ section {
     &:focus-visible {
       background-color: var(--white);
       border-color: var(--white);
+    }
+  }
+
+  &--third {
+    color: var(--white-cream);
+
+    &:hover,
+    &:focus-visible {
+      background-color: var(--black-brand);
+      border-color: var(--red);
     }
   }
 
