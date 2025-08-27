@@ -258,7 +258,8 @@ section {
 
     &:hover,
     &:focus-visible {
-      background-color: var(--black);
+      color: var(--white);
+      background-color: var(--red);
       border-color: var(--red);
     }
   }
