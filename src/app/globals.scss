@@ -253,10 +253,12 @@ section {
 
   &--third {
     color: var(--white-cream);
+    background-color: var(--red);
+
 
     &:hover,
     &:focus-visible {
-      background-color: var(--black-brand);
+      background-color: var(--black);
       border-color: var(--red);
     }
   }
