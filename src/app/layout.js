@@ -23,9 +23,9 @@ const montserrat = Montserrat({
 })
 
 export const metadata = {
-  title: 'Brutal Barbershop',
+  title: 'Maverick Barbershop',
   description:
-    'Brutal barbershop - це більш, ніж просто чоловіча перукарня. Місце, де вас проведуть за ручку до неповторного стилю за допомогою пари ножиць та машинки.',
+    'Maverick Barbershop | Стрижки | Борода | Атмосфера | Ужгород',
 }
 
 const GLOBAL_QUERY = `
